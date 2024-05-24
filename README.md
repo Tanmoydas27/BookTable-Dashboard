@@ -168,23 +168,13 @@ This project uses Auth0 for authentication. Ensure you have configured your Auth
 Styling
 Tailwind CSS is used for styling the application. The layout ensures the table and controls are responsive and user-friendly.
 
-Contributing
-If you would like to contribute to this project, please follow these steps:
 
-Fork the repository.
-Create a new branch: git checkout -b my-feature-branch.
-Make your changes and commit them: git commit -m 'Add new feature'.
-Push to the branch: git push origin my-feature-branch.
-Submit a pull request.
+
 License
 This project is licensed under the MIT License.
 
 Contact
 For any questions or suggestions, please feel free to open an issue or contact the repository owner.
 
-css
-Copy code
-
-Replace `yourusername` with your actual GitHub username in the clone URL.
 
 This README covers the key aspects of your project, including setup, usage, and contribution guidel
