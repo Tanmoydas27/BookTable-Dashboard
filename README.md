@@ -107,20 +107,22 @@ BookTable is a React-based application that displays a list of books with detail
 Install dependencies:
 
 bash
-Copy code
+`
 npm install
+`
 Configure Auth0:
 
 Create a .env file in the root of the project and add your Auth0 configuration details:
 
 env
-Copy code
+`
 REACT_APP_AUTH0_DOMAIN=your-auth0-domain
 REACT_APP_AUTH0_CLIENT_ID=your-auth0-client-id
+`
 Run the application:
 
 bash
-Copy code
+
 npm start
 The app should now be running at http://localhost:3000.
 
@@ -131,8 +133,8 @@ Sort: Click on the column headers to sort the table by that column.
 Pagination: Use the pagination controls at the bottom to navigate through pages.
 Download CSV: Click the "Download CSV" button to download the current table data.
 Project Structure
-plaintext
-Copy code
+
+`
 booktable/
 ├── public/
 │   ├── index.html
@@ -148,6 +150,7 @@ booktable/
 ├── README.md
 API Services
 fetchBooks()
+`
 Fetches a list of books from the API.
 
 getAuthor(authorName)
